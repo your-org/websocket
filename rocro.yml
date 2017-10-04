@@ -3,6 +3,7 @@ inspecode:
     thresholds:
       num-issues: 0
     options: [-s]
+    auto-fix: true
   go-test:
     thresholds:
       num-issues: 0

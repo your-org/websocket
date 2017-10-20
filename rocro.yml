@@ -8,4 +8,6 @@ inspecode:
     thresholds:
       num-issues: 0
   misspell: default
-  golint: default
+  golint:
+    - input:  c*
+    - ignore: c*

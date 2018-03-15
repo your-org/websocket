@@ -1,0 +1,10 @@
+inspecode:
+  gofmt:
+    thresholds:
+      num-issues: 0
+    options: [-s]
+  go-test:
+    thresholds:
+      num-issues: 0
+  misspell: default
+  golint: default
